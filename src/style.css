@@ -1,0 +1,14 @@
+/* Ingore stylelint warning: Expected ""tailwindcss"" to be "url("tailwindcss")" (import-notation) */
+@import "tailwindcss";
+
+@layer base {
+  h1 {
+    color: aliceblue;
+  }
+}
+
+@layer components {
+  .paragraph {
+    color: black;
+  }
+}
